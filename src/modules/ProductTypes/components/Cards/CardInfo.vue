@@ -160,7 +160,7 @@ onMounted(async () => {
           v-model="inputData.nombre"
           type="text"
           class="col-12 col-sm-6"
-          label="Nombre del tipo"
+          label="Nombre del tipo 2"
           outlined
           dense
           readonly
