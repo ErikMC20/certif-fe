@@ -1,0 +1,1 @@
+export { compareToken } from './userVerifyToken';

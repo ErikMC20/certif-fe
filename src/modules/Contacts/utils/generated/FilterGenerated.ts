@@ -1,0 +1,48 @@
+import { FieldsModels } from '../types';
+
+export const listInputsFilter: FieldsModels[] = [
+  {
+    class: 'col-6',
+    component: 'q-input',
+    dense: true,
+    label: 'Tipo de documento',
+    field: 'tipo_documento_c',
+    options: ['Google', 'Facebook', 'Twitter', 'Apple', 'Oracle'],
+    optionsdense: true,
+    outlined: true,
+    rules: ['fieldRequired'],
+  },
+  {
+    class: 'col-6',
+    component: 'q-input',
+    dense: true,
+    label: 'Tipo de documento',
+    field: 'tipo_documento_c',
+    options: ['Google', 'Facebook', 'Twitter', 'Apple', 'Oracle'],
+    optionsdense: true,
+    outlined: true,
+    rules: ['fieldRequired'],
+  },
+  {
+    class: 'col-6',
+    component: 'q-select',
+    dense: true,
+    label: 'Tipo de documento',
+    field: 'tipo_documento_c',
+    options: ['Google', 'Facebook', 'Twitter', 'Apple', 'Oracle'],
+    optionsdense: true,
+    outlined: true,
+    rules: ['fieldRequired'],
+  },
+  {
+    class: 'col-6',
+    component: 'q-select',
+    dense: true,
+    label: 'Tipo de documento',
+    field: 'tipo_documento_c',
+    options: ['Google', 'Facebook', 'Twitter', 'Apple', 'Oracle'],
+    optionsdense: true,
+    outlined: true,
+    rules: ['fieldRequired'],
+  },
+];

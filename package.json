@@ -1,0 +1,56 @@
+{
+  "name": "frontend",
+  "version": "0.0.1",
+  "description": "Sistema para la gestion de solicitud de Certificaciones",
+  "productName": "Certifications App",
+  "author": "EMaquera <emaquera@hansa.com.bo>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/cli": "^1.4.0",
+    "@quasar/extras": "^1.0.0",
+    "@vuepic/vue-datepicker": "^3.6.5",
+    "@vueuse/core": "^9.9.0",
+    "@vueuse/integrations": "^9.10.0",
+    "apexcharts": "^3.37.1",
+    "axios": "^0.21.1",
+    "change-case": "^4.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "gantt-hansa-js": "^1.1.5",
+    "humanize-duration": "^3.28.0",
+    "jwt-decode": "^3.1.2",
+    "leaflet-geosearch": "^3.7.0",
+    "moment": "^2.29.4",
+    "pinia": "^2.0.11",
+    "quasar": "^2.12.0",
+    "socket.io-client": "^4.5.4",
+    "vue": "^3.2.45",
+    "vue-draggable": "^2.0.6",
+    "vue-router": "^4.0.0",
+    "vue3-apexcharts": "^1.4.1",
+    "vue3-jd-comments": "^1.1.6"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.0.0",
+    "@types/node": "^12.20.21",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "autoprefixer": "^10.4.2",
+    "dayjs": "^1.11.7",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

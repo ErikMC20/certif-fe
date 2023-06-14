@@ -1,0 +1,36 @@
+// app global css in SCSS form
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import '@quasar/extras/material-icons-outlined/material-icons-outlined.css';
+@import './customThemes.scss';
+@import './layoutStyles.scss';
+@import './darkTheme.scss';
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: $bg-body;
+}
+
+//* Themes hansaCRM */
+.theme-audi {
+  background-color: $bg-audi;
+  color: white;
+}
+
+.theme-volk {
+  background-color: $bg-volk;
+  color: white;
+}
+
+.theme-camiones {
+  background-color: $bg-camiones;
+  color: rgb(39, 39, 39);
+}
+
+.theme-hansa {
+  background-color: $bg-hansa;
+}
+
+.theme-white {
+  background-color: $bg-white;
+  color: rgb(0, 0, 0);
+}

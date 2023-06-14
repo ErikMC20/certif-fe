@@ -1,0 +1,100 @@
+{
+  "group_a": [
+    {
+      "component": "q-input",
+      "name": "title",
+      "label": "Titulo de la encuesta",
+      "value": "",
+      "class_input": "col-12"
+    },
+    {
+      "component": "q-select",
+      "name": "division",
+      "label": "División",
+      "value": "item 3",
+      "class_input": "col-6",
+      "options": ["item 1", "item 2", "item 3", "item 4"]
+    },
+    {
+      "component": "q-select",
+      "name": "market_area",
+      "label": "Area de mercado",
+      "value": "item 1",
+      "class_input": "col-6",
+      "options": ["item 1", "item 2", "item 3", "item 4"]
+    },
+    {
+      "component": "q-select",
+      "name": "module",
+      "label": "Módulo",
+      "value": "item 3",
+      "class_input": "col-6",
+      "options": ["item 1", "item 2", "item 3", "item 4"]
+    },
+    {
+      "component": "q-select",
+      "name": "client_group",
+      "label": "Grupo cliente",
+      "value": "item 4",
+      "class_input": "col-6",
+      "options": ["item 1", "item 2", "item 3", "item 4"]
+    },
+    {
+      "component": "q-input",
+      "name": "description",
+      "label": "Descripcion",
+      "type": "textarea",
+      "value": "",
+      "class_input": "col-12"
+    }
+  ],
+  "group_b": [
+    {
+      "component": "q-input",
+      "name": "title",
+      "label": "Titulo de la encuesta",
+      "value": "",
+      "class_input": "col-12"
+    },
+    {
+      "component": "q-select",
+      "name": "division",
+      "label": "División",
+      "value": "",
+      "class_input": "col-6",
+      "options": []
+    },
+    {
+      "component": "q-select",
+      "name": "market_area",
+      "label": "Area de mercado",
+      "value": "item 1",
+      "class_input": "col-6",
+      "options": ["item 1", "item 2", "item 3", "item 4"]
+    },
+    {
+      "component": "q-select",
+      "name": "module",
+      "label": "Módulo",
+      "value": "item 2",
+      "class_input": "col-6",
+      "options": ["item 1", "item 2", "item 3", "item 4"]
+    },
+    {
+      "component": "q-select",
+      "name": "client_group",
+      "label": "Grupo cliente",
+      "value": "item 1",
+      "class_input": "col-6",
+      "options": ["item 1", "item 2", "item 3", "item 4"]
+    },
+    {
+      "component": "q-input",
+      "name": "description",
+      "label": "Descripcion",
+      "type": "textarea",
+      "value": "",
+      "class_input": "col-12"
+    }
+  ]
+}

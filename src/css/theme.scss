@@ -1,0 +1,9 @@
+$themes: (
+  'metronic-dark': (),
+  'metronic': (
+    $primary: #1b1b28 $secondary: #3699ff $accent: #9c27b0 $dark: #1d1d1d
+      $positive: #f5f8fa $negative: #898a9e $info: #1b84b1 $warning: #eef0f8,
+  ),
+  'material': (),
+  'material-dark': (),
+);
